@@ -1,0 +1,15 @@
+{
+  "name": "proyecto-emilia",
+  "version": "1.0.0",
+  "description": "proyecto emilia",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matias Sabbadini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18"
+  }
+}

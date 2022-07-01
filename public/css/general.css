@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&family=Work+Sans&display=swap');
+
+@import './about.css';
+@import './contac.css';
+@import './index.css';
+@import './music.css';
+
+:root{
+--tipografiaGeneral : ''Open Sans', sans-serif';
+--paraTitulos : 'Raleway', sans-serif;
+--tipografiaIndex : 'Work Sans', sans-serif;
+
+}
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: var(--paraTitulos);
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;;
+    font-size: 30px;
+    font-family: var(--tipografiaIndex);
+}
