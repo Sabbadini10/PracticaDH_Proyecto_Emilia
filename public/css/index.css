@@ -19,6 +19,11 @@ padding-left: 2em;
     list-style: none;
     }
 
+    .index_header_menu_lista a {
+        font-family: var(--tipografiaIndex);
+        font-size: 20px;
+    }
+
 
 .index_header_menu_redes{
 margin-top: 1em;
@@ -39,6 +44,7 @@ padding-left: 2em;
 
     .home_main_titulo {
        font-weight: 400;
+       font-family: var(--tipografiaIndex);
     }
 
     .home_footer{
@@ -47,6 +53,7 @@ padding-left: 2em;
 
     .home_footer_frase{
         font-size: 50px;
+        font-family: var(--tipografiaIndex);
         text-transform: uppercase;
         background-color: rgba(249, 242, 237, 0.5);
         margin-left: 0.5em;

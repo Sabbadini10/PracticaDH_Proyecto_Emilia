@@ -1,0 +1,76 @@
+
+
+.about{
+    background-image: url(/img/emilia-about.jpg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: right;
+    height: 625px;
+}
+
+.about_header{
+    position: absolute;
+    left: 60%;
+   
+}
+
+
+.about_header_menu_lista {
+    display: flex;
+    padding: 10px;
+    background: rgba(249, 242, 237, 0.5);
+}
+
+.about_header_menu_lista li{
+    list-style: none;
+}
+
+.about_header_menu_lista a{
+    display: inline;
+    text-decoration:none;
+    margin-left: 10px;
+}
+
+.about_header_menu_redes span{
+    font-size: 20px;
+    margin: 1em;
+    
+}
+
+.about_header_menu_redes{
+   margin-left: 7rem;
+    display: inline-block;
+}
+
+
+.about_main_titulo {
+    font-size: 50px;
+    margin-left: 1em;
+    display: inline-block;
+    margin-top: 4em;
+}
+
+
+.about_footer_texto{
+    color:rgb(51, 255, 181);
+    margin-top: 5rem;
+    font-family: var(--tipografiaGeneral);
+    margin-left: 2rem;
+}
+
+.about_footer_texto_uno {
+    font-size: 13px;
+}
+
+
+
+
+.about_footer_texto_dos{
+    margin-top: 2rem;
+    font-size: 13px;
+}
+
+
+
+
+
