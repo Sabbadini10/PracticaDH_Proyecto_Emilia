@@ -1,0 +1,110 @@
+.music_header {
+  position: absolute;
+  background-image: url("/img/emilia-music-top.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -2em;
+}
+
+.music_header_menu {
+  margin-left: 53em;
+}
+
+.music_header_menu_lista {
+  display: flex;
+  padding: 10px;
+}
+
+.music_header_menu_lista li {
+  list-style: none;
+}
+
+.music_header_menu_lista a {
+  display: inline;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.music_header_menu_redes span {
+  font-size: 20px;
+  margin: 1em;
+}
+
+.music_header_menu_redes {
+  margin-left: 7rem;
+  display: inline-block;
+  margin-left: 57em;
+  display: inline-block;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+.music_main_titulo {
+  font-size: 50px;
+  margin-left: 0.5em;
+  display: inline-block;
+  margin-top: 6rem;
+}
+
+.music_main_titulo_subtitulo {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-left: 1em;
+  margin-top: 0.5rem;
+}
+
+.music_main_section_uno {
+  margin: 2em 0;
+}
+
+.music_main_section_uno li {
+  text-decoration: none;
+  margin-left: 20px;
+  list-style: none;
+}
+
+.music_main_titulo_lista_a {
+  font-size: 20px;
+  font-family: var(--tipografiaGeneral);
+}
+
+.music_main_div_button button {
+  background: rgb(72, 73, 71);
+  border-radius: 15px;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  width: 60px;
+  height: 30px;
+}
+
+.music_main_div_button .button-a {
+  font-size: 10px;
+}
+
+.music_main_section_dos img {
+  margin-top: 1em;
+}
+
+.music_main_section_dos ol {
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+.music_main_section_dos a {
+  font-size: 20px;
+}
+
+.music_main_section_tres {
+  margin-top: 2em;
+}
+
+.music_main_section_tres iframe {
+  margin: 1em 0;
+}
+
+.music_main_titulo_subtitulo {
+  font-size: 20px;
+}

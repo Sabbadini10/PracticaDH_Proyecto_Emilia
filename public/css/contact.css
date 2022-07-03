@@ -1,70 +1,75 @@
-.contact_header{
-    position: absolute;
-    left: 60%;
+.contact_header {
+  position: absolute;
+  background-image: url("/img/emilia-music-top.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.contact_header_menu {
+  margin-left: 53em;
+}
 
 .contact_header_menu_lista {
-    display: flex;
-    padding: 10px;
-    background: rgba(249, 242, 237, 0.5);
+  display: flex;
+  padding: 10px;
 }
 
-.contact_header_menu_lista li{
-    list-style: none;
+.contact_header_menu_lista li {
+  list-style: none;
 }
 
-.contact_header_menu_lista a{
-    display: inline;
-    text-decoration:none;
-    margin-left: 10px;
+.contact_header_menu_lista a {
+  display: inline;
+  text-decoration: none;
+  margin-left: 10px;
 }
 
-.contact_header_menu_redes span{
-    font-size: 20px;
-    margin: 1em;
-    
+.contact_header_menu_redes span {
+  font-size: 20px;
+  margin: 1em;
 }
 
-.contact_header_menu_redes{
-   margin-left: 7rem;
-    display: inline-block;
+.contact_header_menu_redes {
+  margin-left: 7rem;
+  display: inline-block;
+  margin-left: 57em;
+  display: inline-block;
 }
-
 
 .contact_main_titulo {
-    font-size: 50px;
-    margin-left: 0.5em;
-    display: inline-block;
-    margin-top: 6rem;
+  font-size: 50px;
+  margin-left: 0.5em;
+  display: inline-block;
+  margin-top: 6rem;
 }
 
-.contact_main_titulo_subtitulo{
-    text-transform: uppercase;
-    font-size: 25px;
-    margin-left: 1em;
-    margin-top: 0.5rem;
+.contact_main_titulo_subtitulo {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-left: 1em;
+  margin-top: 0.5rem;
 }
 
-.contact_footer_section{
-    display: flex;
-    justify-content: space-around;
+.contact_footer_section {
+  display: flex;
+  justify-content: space-around;
 }
 
-.contact_footer_titulo{
-    text-transform: uppercase;
-    font-size: 25px;
-    margin-left: 1em;
-    margin-top: 0.5rem;
+.contact_footer_titulo {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-left: 1em;
+  margin-top: 0.5rem;
 }
 
-.contact_footer_subtitulo{
-    color:rgb(51, 255, 181);
-    margin-top: 1em;
-    display: inline-block;
-    font-size: 15px;
+.contact_footer_subtitulo {
+  color: rgb(51, 255, 181);
+  margin-top: 1em;
+  display: inline-block;
+  font-size: 15px;
 }
 
 .contact_footer_parrafo {
-    margin-top: 1em;
+  margin-top: 1em;
 }

@@ -1,18 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&family=Work+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&family=Work+Sans&display=swap");
 
-@import './about.css';
-@import './contact.css';
-@import './index.css';
-@import './music.css';
+@import "./about.css";
+@import "./contact.css";
+@import "./index.css";
+@import "./music.css";
 
-:root{
---tipografiaGeneral : ''Open Sans', sans-serif';
---paraTitulos : 'Raleway', sans-serif;
---tipografiaIndex : 'Work Sans', sans-serif;
-
+:root {
+  --tipografiaGeneral: "" Open Sans ", sans-serif";
+  --paraTitulos: "Raleway", sans-serif;
+  --tipografiaIndex: "Work Sans", sans-serif;
 }
-
-
 
 /*
 font-family: 'Open Sans', sans-serif;
@@ -20,22 +17,33 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Work Sans', sans-serif;
 */
 
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    font-family: var(--paraTitulos);
-    text-transform: uppercase;
+h1 {
+  font-family: var(--paraTitulos);
+  text-transform: uppercase;
 }
 
 a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #000;;
-    font-size: 30px;
-    font-family: var(--tipografiaIndex);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 30px;
+  font-family: var(--tipografiaIndex);
+}
+
+h2 {
+  font-family: var(--tipografiaGeneral);
+}
+
+h4 {
+  font-family: var(--tipografiaGeneral);
+}
+
+p {
+  font-family: var(--tipografiaGeneral);
 }
